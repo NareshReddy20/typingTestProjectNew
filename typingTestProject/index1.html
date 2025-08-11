@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Typing Speed Test</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1>Typing Speed Test</h1>
+    <select id="timeSelect">
+        <option value="60">1 Minute</option>
+        <option value="30">30 Seconds</option>
+        <option value="10">10 Seconds</option>
+    </select>
+    <p><strong>Time Left:</strong> <span id="timer">60</span>s</p>
+    <p id="quote">Loading quote...</p>
+    <textarea id="quoteInput" placeholder="Start typing here..." disabled></textarea><br>
+    <button id="startBtn">Start Test</button>
+    <button id="submitBtn" disabled>Submit</button>
+    <p id="result"></p>
+</div>
+</body>
+</html>
+<script src="script.js"></script>
